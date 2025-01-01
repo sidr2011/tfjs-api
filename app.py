@@ -44,7 +44,7 @@ def export_model():
 
 # Define the directory you want to serve files from
 # UPLOAD_DIRECTORY = "../runs/detect/train22/weights/best_web_model"
-UPLOAD_DIRECTORY = "yolo_tfjsmodel"
+UPLOAD_DIRECTORY = "yolo11n_web_model"  # "yolo_tfjsmodel"
 @app.route('/modelfiles/<path:filename>', methods=['GET'])
 def download_file(filename):
     try:
